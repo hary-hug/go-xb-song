@@ -1,0 +1,21 @@
+2019/07/03 11:27:01 - - - - - - - - - - - - - - -
+2019/07/03 11:27:01 daemon started
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/v1/series            --> go-xb-song/applications/app/api/v1.GetSeries (2 handlers)
+[GIN-debug] GET    /api/v1/serie/poems       --> go-xb-song/applications/app/api/v1.GetPoemsBySerie (2 handlers)
+[GIN-debug] GET    /api/v1/poem/:id          --> go-xb-song/applications/app/api/v1.GetPoemDetail (2 handlers)
+[GIN-debug] GET    /api/v1/search            --> go-xb-song/applications/app/api/v1.SearchContentsByKeyword (2 handlers)
+[GIN-debug] POST   /api/v1/wxlogin           --> go-xb-song/applications/app/api/v1.WxLogin (2 handlers)
+[GIN-debug] GET    /api/v1/user              --> go-xb-song/applications/app/api/v1.GetUserDetail (2 handlers)
+[GIN-debug] GET    /api/v1/user/favourites   --> go-xb-song/applications/app/api/v1.GetFavourites (2 handlers)
+[GIN-debug] GET    /api/v1/user/favourite/groups --> go-xb-song/applications/app/api/v1.GetFavouriteGroup (2 handlers)
+[GIN-debug] POST   /api/v1/user/favourite/add --> go-xb-song/applications/app/api/v1.AddFavourite (2 handlers)
+[GIN-debug] POST   /api/v1/user/favourite/cancel --> go-xb-song/applications/app/api/v1.CancelFavourite (2 handlers)
+[GIN-debug] GET    /api/v1/user/task/setting --> go-xb-song/applications/app/api/v1.GetTaskSetting (2 handlers)
+[GIN-debug] POST   /api/v1/user/task/setting/save --> go-xb-song/applications/app/api/v1.SaveTaskSetting (2 handlers)
+[GIN-debug] POST   /api/v1/task/init         --> go-xb-song/applications/app/api/v1.InitTask (2 handlers)
+[GIN-debug] POST   /api/v1/task/count/add    --> go-xb-song/applications/app/api/v1.AddCount (2 handlers)
+[GIN-debug] POST   /api/v1/user/feedback/add --> go-xb-song/applications/app/api/v1.AddFeedback (2 handlers)
